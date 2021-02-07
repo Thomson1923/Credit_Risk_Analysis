@@ -11,14 +11,8 @@
 # Results
 ## Methodology – The data received from the Marketing Department required some pre-processing before our analysis began. In addition to deleting empty rows and columns, we eliminated nine additional columns since all values in those columns were identical. We also simplified two columns (home_ownership and verification_status) and limited values to one of two choices. 
 ##
-## Values - The following table provides the accuracy of each method as well as the precision and sensitivity (recall) for high risk loans:
-Model Modification	Accuracy	Precision	Sensitivity
-Naïve Random Oversampling	0.652	0.01	0.72
-SMOTE Oversampling	0.656	0.01	0.64
-Cluster Centroid Undersampling	0.549	0.01	0.69
-SMOTEENN	0.645	0.01	0.72
-Balanced Forest Random Classifier	0.763	0.03	0.65
-Easy Ensemble AdaBoost Classifier	0.932	0.09	0.92
+## Values - The attached table () provides the accuracy of each method as well as the precision and sensitivity (recall) for high risk loans.
+
 ##
 #
 # Summary
